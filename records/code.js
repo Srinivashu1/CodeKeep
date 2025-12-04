@@ -3,13 +3,12 @@ const records = [
         id: 1,
         code: "Add Github",
         description: `Initialize and push to GitHub`,
-        command: `
-        git init
-        git add .
-        git commit -m "Initial commit"
-        git branch -M main
-        git remote add origin git@github.com:username/repository.git
-        git push -u origin main`,
+        command: `git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin git@github.com:username/repository.git
+git push -u origin main`,
         category: "Git"
     },
     {
@@ -17,9 +16,9 @@ const records = [
         code: "Update Github",
         description: `Commit and push changes`,
         command: `
-        git add .
-        git commit -m "Update: Your commit message here"
-        git push`,
+git add .
+git commit -m "Update: Your commit message here"
+git push`,
         category: "Git"
     },
     // {
